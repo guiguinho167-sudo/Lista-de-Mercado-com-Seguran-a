@@ -1,0 +1,200 @@
+[0.009s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+[INFO] Scanning for projects...
+[INFO] Loaded 24269 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] --------------------------< com.lista:lista >---------------------------
+[INFO] Building lista 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.1:run (default-cli) > test-compile @ lista >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ lista ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ lista ---
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ lista ---
+[INFO] skip non existing resourceDirectory c:\Users\guigu\lista\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ lista ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.1:run (default-cli) < test-compile @ lista <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.1:run (default-cli) @ lista ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Attaching agents: []
+[0.010s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-27T19:05:12.706-03:00  INFO 12892 --- [lista] [  restartedMain] com.lista.lista.ListaApplication         : Starting ListaApplication using Java 21.0.12.1 with PID 12892 (c:\Users\guigu\lista\target\classes started by guigu in c:\Users\guigu\lista)
+2026-10-27T19:05:12.710-03:00  INFO 12892 --- [lista] [  restartedMain] com.lista.lista.ListaApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-27T19:05:12.769-03:00  INFO 12892 --- [lista] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-27T19:05:12.769-03:00  INFO 12892 --- [lista] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-27T19:05:13.509-03:00  INFO 12892 --- [lista] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-27T19:05:13.577-03:00  INFO 12892 --- [lista] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2026-10-27T19:05:14.335-03:00  INFO 12892 --- [lista] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-10-27T19:05:14.360-03:00  INFO 12892 --- [lista] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-27T19:05:14.361-03:00  INFO 12892 --- [lista] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-27T19:05:14.415-03:00  INFO 12892 --- [lista] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1646 ms
+2026-10-27T19:05:14.587-03:00  INFO 12892 --- [lista] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-27T19:05:14.810-03:00  INFO 12892 --- [lista] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d37d674f-c084-42aa-b3ba-b572e56734d8 user=SA
+2026-10-27T19:05:14.813-03:00  INFO 12892 --- [lista] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-27T19:05:14.855-03:00  INFO 12892 --- [lista] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-27T19:05:14.918-03:00  INFO 12892 --- [lista] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-27T19:05:15.489-03:00  INFO 12892 --- [lista] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-27T19:05:15.592-03:00  INFO 12892 --- [lista] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:d37d674f-c084-42aa-b3ba-b572e56734d8]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: D37D674F-C084-42AA-B3BA-B572E56734D8/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-27T19:05:17.162-03:00  INFO 12892 --- [lista] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-27T19:05:17.236-03:00  INFO 12892 --- [lista] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-27T19:05:17.315-03:00  INFO 12892 --- [lista] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-27T19:05:17.543-03:00  WARN 12892 --- [lista] [  restartedMain] o.s.aop.framework.CglibAopProxy          : Unable to proxy interface-implementing method [public final void org.springframework.web.filter.GenericFilterBean.init(jakarta.servlet.FilterConfig) throws jakarta.servlet.ServletException] because it is marked as final, consider using interface-based JDK proxies instead.
+2026-10-27T19:05:17.709-03:00 ERROR 12892 --- [lista] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Exception starting filter [filtroToken]
+
+jakarta.validation.ConstraintDeclarationException: HV000151: A method overriding another method must not redefine the parameter constraint configuration, but method FiltroToken#doFilterInternal(HttpServletRequest, HttpServletResponse, FilterChain) redefines the configuration of OncePerRequestFilter#doFilterInternal(HttpServletRequest, HttpServletResponse, FilterChain).
+	at org.hibernate.validator.internal.metadata.aggregated.rule.OverridingMethodMustNotAlterParameterConstraints.apply(OverridingMethodMustNotAlterParameterConstraints.java:22) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.metadata.aggregated.ExecutableMetaData$Builder.assertCorrectnessOfConfiguration(ExecutableMetaData.java:521) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.metadata.aggregated.ExecutableMetaData$Builder.build(ExecutableMetaData.java:438) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.metadata.aggregated.BeanMetaDataBuilder$BuilderDelegate.build(BeanMetaDataBuilder.java:269) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.metadata.aggregated.BeanMetaDataBuilder.build(BeanMetaDataBuilder.java:136) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.metadata.BeanMetaDataManagerImpl.createBeanMetaData(BeanMetaDataManagerImpl.java:209) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.metadata.BeanMetaDataManagerImpl.getBeanMetaData(BeanMetaDataManagerImpl.java:167) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateParameters(ValidatorImpl.java:265) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateParameters(ValidatorImpl.java:233) ~[hibernate-validator-9.1.3.Final.jar:9.1.3.Final]
+	at org.springframework.validation.beanvalidation.MethodValidationAdapter.invokeValidatorForArguments(MethodValidationAdapter.java:249) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:166) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.9.jar:7.0.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.9.jar:7.0.9]
+	at com.lista.lista.FiltroToken$$SpringCGLIB$$0.initFilterBean(<generated>) ~[classes/:na]
+	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:233) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:243) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:99) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4010) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4609) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1204) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1200) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:732) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1204) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1200) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:732) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:871) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:452) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:131) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:429) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:167) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at com.lista.lista.ListaApplication.main(ListaApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+
+2026-10-27T19:05:17.714-03:00 ERROR 12892 --- [lista] [  restartedMain] o.apache.catalina.core.StandardContext   : One or more Filters failed to start. Full details will be found in the appropriate container log file
+2026-10-27T19:05:17.714-03:00 ERROR 12892 --- [lista] [  restartedMain] o.apache.catalina.core.StandardContext   : Context [] startup failed due to previous errors
+2026-10-27T19:05:17.717-03:00  WARN 12892 --- [lista] [  restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-10-27T19:05:17.717-03:00  WARN 12892 --- [lista] [  restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-10-27T19:05:17.754-03:00  INFO 12892 --- [lista] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-27T19:05:17.761-03:00  WARN 12892 --- [lista] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-10-27T19:05:17.761-03:00  INFO 12892 --- [lista] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-27T19:05:17.770-03:00  WARN 12892 --- [lista] [  restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-10-27T19:05:17.771-03:00  INFO 12892 --- [lista] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-27T19:05:17.773-03:00  INFO 12892 --- [lista] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-27T19:05:17.777-03:00  INFO 12892 --- [lista] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-27T19:05:17.794-03:00 ERROR 12892 --- [lista] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at com.lista.lista.ListaApplication.main(ListaApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:150) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:110) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:429) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:167) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:190) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	... 11 common frames omitted
+Caused by: java.lang.IllegalStateException: StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[] failed to start
+	at org.springframework.boot.tomcat.TomcatWebServer.rethrowDeferredStartupExceptions(TomcatWebServer.java:206) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	at org.springframework.boot.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:134) ~[spring-boot-tomcat-4.1.1.jar:4.1.1]
+	... 16 common frames omitted
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.355 s
+[INFO] Finished at: 2026-10-27T19:05:17-03:00
+[INFO] ------------------------------------------------------------------------
